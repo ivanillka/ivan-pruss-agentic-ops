@@ -53,3 +53,25 @@ Follow-up execution after pulse sign-off ("ok go").
 - Delete remote branches
 - Close/merge draft PRs
 - Restore Actions secrets
+
+## Execution attempt (2026-09-09 ~22:26 UTC)
+
+User asked automation to execute the remaining steps. Retried all write operations:
+
+| Operation | Result |
+|-----------|--------|
+| `gh issue close 25` | 403 Resource not accessible by integration |
+| `gh pr ready 24` | 403 |
+| Delete remote branches | 403 |
+| `git push` to f-motion | `Permission to ivanillka/f-motion.git denied to cursor[bot]` |
+| `gh repo fork` | 403 |
+
+**Hard block:** Cursor GitHub App can create issues on f-motion but cannot push, close issues, manage PRs, or delete branches.
+
+**Unblock:** Add `ivanillka/f-motion` to the Cursor GitHub App with Contents Write + Pull requests Write + Issues Write, then run:
+
+```bash
+./ops/scripts/execute-f-motion-pulse-actions.sh
+```
+
+That script applies the `previewRenderLabel` fix to #21/#20, rebases, marks #24 ready, closes #25, and cleans branches.
