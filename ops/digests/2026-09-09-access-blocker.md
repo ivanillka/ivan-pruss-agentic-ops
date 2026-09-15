@@ -1,4 +1,4 @@
-# Access blocker — cannot execute f-motion remediations
+# Access blocker: cannot execute f-motion remediations
 
 **Status:** blocked (2026-09-09)
 
@@ -21,9 +21,8 @@ Creating issues on public `f-motion` worked earlier; **write** (contents/PR muta
    https://github.com/settings/installations
 2. Add repository **`ivanillka/f-motion`** (and Fotium/f-engine if desired).
 3. Ensure permissions: Contents R/W, Pull requests R/W, Issues R/W.
-4. Optionally add the repo to the Cloud Agent environment:  
-   https://cursor.com/dashboard/cloud-agents/environments/e/55127976-ac9a-11f1-ba66-0e7d0216e441
-5. Reply **go** — agent runs `./ops/scripts/execute-f-motion-pulse-actions.sh`.
+4. Optionally add the repo to the Cloud Agent environment in the Cursor dashboard (Cloud Agents → Environments).
+5. Reply **go**. The agent runs `./ops/scripts/execute-f-motion-pulse-actions.sh`.
 
 ## Ready when unblocked
 
