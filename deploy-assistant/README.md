@@ -4,7 +4,7 @@ Safe, secret-free demo of the gated deploy path described in [Fotium release dis
 
 This is not a production deployer. It does not talk to a VPS, cloud account, or CI secret store. It shows the operator contract:
 
-pre-flight → lint / tests / build gates → smoke → GO / NO-GO → post-deploy verify → markdown audit report (SHA + rollback command)
+pre-flight → lint / types / tests / Playwright / build gates → smoke → GO / NO-GO → post-deploy verify → markdown audit report (SHA + rollback command)
 
 Failures are loud. The sample runner uses `set -euo pipefail` and does not swallow a red gate with `|| true`.
 
@@ -19,7 +19,7 @@ Failures are loud. The sample runner uses `set -euo pipefail` and does not swall
 ## Operator contract
 
 1. **Pre-flight** records git SHA, branch, and whether the tree is clean. Missing git is a NO-GO.
-2. **Gates** run only if the corresponding tool exists in PATH. A missing tool is recorded as `SKIP` with a reason, not as a silent pass. A non-zero exit is `FAIL` and the overall decision becomes NO-GO.
+2. **Gates** run only if the corresponding tool exists in PATH. A missing tool is recorded as `SKIP` with a reason, not as a silent pass. A non-zero exit is `FAIL` and the overall decision becomes NO-GO. Production Fotium requires lint, types, tests, Playwright, and build. This sample repo has no app toolchain, so those rows are documented skips.
 3. **Smoke** is a local stand-in: required files in this sample must exist. In a real path this is an HTTP health check against a staging URL. This sample never calls a private host.
 4. **Decision** is GO only when every required gate is `PASS` or an explicit, documented `SKIP`.
 5. **Report** is written under `reports/` with timestamp, SHA, table of gates, decision, and rollback text.

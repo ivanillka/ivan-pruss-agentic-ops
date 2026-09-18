@@ -36,12 +36,14 @@ echo "    tree=${TREE}"
 
 PREFLIGHT="PASS"
 LINT="SKIP"
+TYPES="SKIP"
 TESTS="SKIP"
+PLAYWRIGHT="SKIP"
 BUILD="SKIP"
 VERIFY="SKIP"
 
 echo "==> gates"
-echo "    lint/tests/build: SKIP (this sample repo has no app toolchain)"
+echo "    lint/types/tests/playwright/build: SKIP (this sample repo has no app toolchain)"
 echo "    skip is recorded in the report; it is not a silent pass"
 
 echo "==> smoke"
@@ -77,7 +79,9 @@ cat > "${REPORT}" <<EOF
 |---|---|---|
 | preflight | ${PREFLIGHT} | git metadata recorded |
 | lint | ${LINT} | no app linter in this sample repo |
+| types | ${TYPES} | no typecheck in this sample repo |
 | tests | ${TESTS} | no test runner in this sample repo |
+| playwright | ${PLAYWRIGHT} | no Playwright suite in this sample repo |
 | build | ${BUILD} | no build step in this sample repo |
 | smoke | ${SMOKE} | required sample files exist |
 | post-deploy verify | ${VERIFY} | no remote target |

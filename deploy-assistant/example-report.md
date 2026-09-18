@@ -15,12 +15,14 @@ This is a **fixture**, not a log from a real production host. SHA, branch, and t
 |---|---|---|
 | preflight | PASS | git metadata recorded |
 | lint | SKIP | no linter configured in this sample repo |
+| types | SKIP | no typecheck configured in this sample repo |
 | tests | SKIP | no test runner configured in this sample repo |
+| playwright | SKIP | no Playwright suite in this sample repo |
 | build | SKIP | no build step in this sample repo |
 | smoke | PASS | required sample files exist |
 | post-deploy verify | SKIP | no remote target in the sample runner |
 
-SKIP here is explicit and documented. A production Fotium path would require lint, tests, build, and live smoke to PASS.
+SKIP here is explicit and documented. A production Fotium path would require lint, types, tests, Playwright, build, and live smoke to PASS.
 
 ## Smoke
 

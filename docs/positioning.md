@@ -35,8 +35,8 @@ That usually means:
 | Artifact | What it shows |
 |---|---|
 | [Personal Ops OS](../case-studies/personal-ops-os.md) | Knowledge to execution, with daily gates |
-| [Fotium release discipline](../case-studies/fotium-release-discipline.md) | Deploy path with GO/NO-GO, audit report, rollback |
-| [Content automation](../case-studies/content-automation.md) | Publish pipeline and rule-based internal linking |
+| [Fotium release discipline](../case-studies/fotium-release-discipline.md) | Deploy path with pre-flight, CI gates, GO/NO-GO, audit report, rollback |
+| [Fotium publish + auto-linking](../case-studies/content-automation.md) | Measured production publish: 227 internal links across 10+ items |
 | [Deploy Assistant sample](../deploy-assistant/README.md) | Safe, secret-free demo of the deploy report pattern |
 | [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md) | Engineering health digest plus follow-up actions |
 

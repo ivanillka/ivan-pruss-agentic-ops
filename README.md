@@ -15,8 +15,8 @@ This is the public portfolio for hiring conversations. It is a landing page plus
 | Case study | Problem | Result |
 |---|---|---|
 | [Personal Ops OS](case-studies/personal-ops-os.md) | Knowledge and tasks lived in side-of-desk rituals | Repeatable knowledge-to-execution loop with gates and quieter signals |
-| [Fotium release discipline](case-studies/fotium-release-discipline.md) | Manual deploys with no audit trail | Gated deploy path with timestamped reports and one-command rollback |
-| [Content automation](case-studies/content-automation.md) | Internal linking and publish busywork were manual | Publish pipeline plus rule-based linking so the system does the repetitive structure work |
+| [Fotium release discipline](case-studies/fotium-release-discipline.md) | Manual deploys with no audit trail | Gated deploy path: pre-flight, CI gates, smoke, GO/NO-GO, timestamped reports, one-command rollback |
+| [Fotium publish + auto-linking](case-studies/content-automation.md) | Internal linking and publish busywork were manual | Measured production run: **227** internal links generated across **10+** content items |
 
 Related public code:
 
@@ -26,6 +26,7 @@ Related public code:
 
 Sample artifacts in this repo:
 
+- [Case study index](case-studies/README.md)
 - [Positioning one-pager](docs/positioning.md)
 - [Deploy Assistant pattern](deploy-assistant/README.md)
 
@@ -33,7 +34,7 @@ Sample artifacts in this repo:
 
 I treat operations as a product: explicit gates, written evidence, and a rollback path before the GO.
 
-1. **Gates.** Lint, types, tests, and smoke checks run before anything is called production. Failures stop the path. They are not swallowed.
+1. **Gates.** Lint, types, tests, Playwright, and smoke checks run before anything is called production. Failures stop the path. They are not swallowed.
 2. **Logs.** Every run leaves a timestamped record: what ran, which SHA, who decided GO or NO-GO, and what to do if it breaks.
 3. **Rollback.** A deploy is not done until the reverse command is written next to the SHA that went out.
 4. **Enablement.** Scripts and SOPs should be runnable by someone else. If only I can run it, it is not an operating system yet.
