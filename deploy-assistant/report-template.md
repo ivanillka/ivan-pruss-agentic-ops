@@ -13,7 +13,9 @@
 |---|---|---|
 | preflight | PASS / FAIL | |
 | lint | PASS / FAIL / SKIP | |
+| types | PASS / FAIL / SKIP | |
 | tests | PASS / FAIL / SKIP | |
+| playwright | PASS / FAIL / SKIP | |
 | build | PASS / FAIL / SKIP | |
 | smoke | PASS / FAIL / SKIP | |
 | post-deploy verify | PASS / FAIL / SKIP | |

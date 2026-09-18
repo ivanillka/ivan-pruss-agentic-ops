@@ -47,5 +47,5 @@ This is Product Ops in miniature. The artifact is not "I use Obsidian." The arti
 Related public pages:
 
 - [Positioning](../docs/positioning.md)
-- [Content automation](content-automation.md)
+- [Fotium production publish](content-automation.md)
 - [How I work](../README.md#how-i-work)
