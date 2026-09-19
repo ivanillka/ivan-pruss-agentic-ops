@@ -70,6 +70,7 @@ Related public pages:
 
 - [Deploy Assistant sample](../deploy-assistant/README.md)
 - [Fotium production publish](content-automation.md)
+- [My VPS Guard](my-vps-guard.md)
 - [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md)
 - [Case study index](README.md)
 - [Positioning](../docs/positioning.md)
