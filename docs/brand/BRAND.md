@@ -14,7 +14,7 @@ Visual language for the Ivan Pruss public portfolio. Hiring-facing, not a produc
 | [wordmark.svg](wordmark.svg) | Text-only lockup when the mark is already nearby |
 | [logo-lockup.svg](logo-lockup.svg) | README hero, case-study headers |
 
-The mark is a **closed loop with a human gate**: the path is continuous, the latch is the decision. It is not a startup lightning bolt.
+The mark is a geometric **AO monogram** on a slate badge, latched by a teal gate bar. The letters are the name; the bar is the human decision. It is not a startup lightning bolt.
 
 ## Color tokens
 
