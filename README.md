@@ -17,9 +17,11 @@ This is the public portfolio for hiring conversations. It is a landing page plus
 | [Personal Ops OS](case-studies/personal-ops-os.md) | Knowledge and tasks lived in side-of-desk rituals | Repeatable knowledge-to-execution loop with gates and quieter signals |
 | [Fotium release discipline](case-studies/fotium-release-discipline.md) | Manual deploys with no audit trail | Gated deploy path: pre-flight, CI gates, smoke, GO/NO-GO, timestamped reports, one-command rollback |
 | [Fotium publish + auto-linking](case-studies/content-automation.md) | Internal linking and publish busywork were manual | Measured production run: **227** internal links generated across **10+** content items |
+| [My VPS Guard](case-studies/my-vps-guard.md) | Fragmented host visibility; IP blocks were tribal SSH | Defensive dashboard with Caddy ingest and UFW-synced Visitor blocks |
 
 Related public code:
 
+- Private application: `ivanillka/my-vps-guard` (defensive VPS security dashboard; not public)
 - [f-motion](https://github.com/ivanillka/f-motion) - architecture, product design contract, CI gates, and hosted/self-host runbooks
 - [f-engine](https://github.com/ivanillka/f-engine) - host-neutral vertical-video engine and reference application
 - [Weekly pulse example](ops/digests/2026-09-09-weekly-pulse.md) - engineering digest, triage scripts, and follow-up action log from this repo
