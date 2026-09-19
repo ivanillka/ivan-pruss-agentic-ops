@@ -54,5 +54,6 @@ Related public pages:
 
 - [Personal Ops OS](personal-ops-os.md)
 - [Fotium release discipline](fotium-release-discipline.md)
+- [My VPS Guard](my-vps-guard.md)
 - [Case study index](README.md)
 - [Positioning](../docs/positioning.md)

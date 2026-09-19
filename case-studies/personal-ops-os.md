@@ -48,4 +48,5 @@ Related public pages:
 
 - [Positioning](../docs/positioning.md)
 - [Fotium production publish](content-automation.md)
+- [My VPS Guard](my-vps-guard.md)
 - [How I work](../README.md#how-i-work)

@@ -60,6 +60,7 @@ This is Agentic / Product Ops with a security boundary: turn raw host signals in
 Related public pages:
 
 - [Case study index](README.md)
+- [Personal Ops OS](personal-ops-os.md) (same habit: gated operator loop)
 - [Fotium release discipline](fotium-release-discipline.md) (same habit: gates and evidence)
 - [Positioning](../docs/positioning.md)
 - Landing: [README](../README.md)

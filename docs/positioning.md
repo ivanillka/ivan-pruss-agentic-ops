@@ -1,6 +1,6 @@
 # Positioning
 
-Public one-pager for hiring conversations. Contact is GitHub only.
+Public one-pager for hiring conversations. Contact is GitHub + EU/remote only.
 
 ## One-liner
 
@@ -25,7 +25,7 @@ I turn messy operational work into a path that can be run, inspected, and revers
 That usually means:
 
 - mapping the real workflow, including the unofficial steps people skip documenting
-- putting gates in front of irreversible actions (publish, deploy, delete, send)
+- putting gates in front of irreversible actions (publish, deploy, delete, send, firewall block)
 - leaving logs so the next person can see what happened without asking me
 - writing rollback next to the forward path, not as an afterthought
 - using AI where it reduces coordination cost, not where it hides failure
@@ -37,6 +37,7 @@ That usually means:
 | [Personal Ops OS](../case-studies/personal-ops-os.md) | Knowledge to execution, with daily gates |
 | [Fotium release discipline](../case-studies/fotium-release-discipline.md) | Deploy path with pre-flight, CI gates, GO/NO-GO, audit report, rollback |
 | [Fotium publish + auto-linking](../case-studies/content-automation.md) | Measured production publish: 227 internal links across 10+ items |
+| [My VPS Guard](../case-studies/my-vps-guard.md) | Defensive edge ops dashboard (defense only): Caddy ingest → label attempts → Visitor block → UFW sync |
 | [Deploy Assistant sample](../deploy-assistant/README.md) | Safe, secret-free demo of the deploy report pattern |
 | [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md) | Engineering health digest plus follow-up actions |
 
@@ -44,6 +45,8 @@ Public product/code I can point to without a private vault:
 
 - [f-motion](https://github.com/ivanillka/f-motion)
 - [f-engine](https://github.com/ivanillka/f-engine)
+
+The My VPS Guard application repo is private (`ivanillka/my-vps-guard`). Same honesty rule as Fotium: the public case study describes the defensive operator pattern, not hostnames, credentials, or internal IPs.
 
 ## How I talk about AI
 
