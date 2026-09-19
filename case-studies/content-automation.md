@@ -2,6 +2,10 @@
 
 Measured production path: notes to live pages, with rule-based internal links.
 
+<p align="center">
+  <img src="../docs/diagrams/fotium-publish-autolinking.svg" alt="Fotium publish pipeline and rule-based auto-linking. Measured production run: 227 internal links across 10 or more content items." width="880">
+</p>
+
 ## Problem
 
 Internal linking and publish busywork were manual. A note could be written and still not be connected to related pages. Publishing meant repeating the same object-storage, admin API, and "is it live?" steps.
@@ -57,3 +61,5 @@ Related public pages:
 - [My VPS Guard](my-vps-guard.md)
 - [Case study index](README.md)
 - [Positioning](../docs/positioning.md)
+- [Diagram](../docs/diagrams/fotium-publish-autolinking.svg)
+- [Visual system](../docs/visual-system.md)

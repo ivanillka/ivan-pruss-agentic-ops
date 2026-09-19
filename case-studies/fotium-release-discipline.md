@@ -2,6 +2,10 @@
 
 From a remembered sequence to a gated path with an audit trail.
 
+<p align="center">
+  <img src="../docs/diagrams/fotium-release-discipline.svg" alt="Fotium release discipline: pre-flight, CI gates, smoke, GO or NO-GO, verify and audit, rollback written next to the forward command." width="880">
+</p>
+
 ## Problem
 
 Deploys were a manual, undocumented sequence. The steps lived with whoever last ran them.
@@ -74,3 +78,5 @@ Related public pages:
 - [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md)
 - [Case study index](README.md)
 - [Positioning](../docs/positioning.md)
+- [Diagram](../docs/diagrams/fotium-release-discipline.svg)
+- [Visual system](../docs/visual-system.md)

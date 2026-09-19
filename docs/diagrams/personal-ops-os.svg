@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">Personal Ops OS</title>
+  <desc id="desc">Knowledge-to-execution loop: capture, theme gate, execute, log, publish only through the publish path. AI drafts; a human still decides GO or NO-GO.</desc>
+  <rect width="880" height="420" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CASE STUDY / PERSONAL OPS OS</text>
+  <text x="28" y="60" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Knowledge to execution, with daily gates</text>
+  <text x="852" y="40" text-anchor="end" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">no private vault / no invented counts</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="92" width="148" height="88" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="102" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">01  CAPTURE</text>
+    <text x="102" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">notes + tasks</text>
+    <text x="102" y="164" text-anchor="middle" fill="#64748B" font-size="11">cheap on the way in</text>
+    <path d="M176 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="196" y="88" width="156" height="96" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="274" y="122" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.2">02  GATE</text>
+    <text x="274" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">theme / priority</text>
+    <text x="274" y="164" text-anchor="middle" fill="#99F6E4" font-size="11">or explicit defer</text>
+    <path d="M352 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="372" y="92" width="140" height="88" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="442" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">03  EXECUTE</text>
+    <text x="442" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">today's scoped work</text>
+    <text x="442" y="164" text-anchor="middle" fill="#64748B" font-size="11">SOP, not memory</text>
+    <path d="M512 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="532" y="92" width="132" height="88" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="598" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">04  LOG</text>
+    <text x="598" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">what changed</text>
+    <text x="598" y="164" text-anchor="middle" fill="#64748B" font-size="11">written evidence</text>
+    <path d="M664 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="684" y="88" width="168" height="96" rx="12" fill="#1E293B" stroke="#0F766E" stroke-width="1.5"/>
+    <text x="768" y="122" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.2">05  PUBLISH PATH</text>
+    <text x="768" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">only if it ships</text>
+    <text x="768" y="164" text-anchor="middle" fill="#64748B" font-size="11">no copy-paste vault</text>
+  </g>
+  <rect x="28" y="212" width="404" height="88" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="48" y="242" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">AI MAY</text>
+  <text x="48" y="266" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">summarize / tag / draft</text>
+  <text x="48" y="286" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">does not auto-commit irreversible actions</text>
+  <rect x="448" y="212" width="404" height="88" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="1.5"/>
+  <text x="468" y="242" fill="#5EEAD4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">HUMAN STILL</text>
+  <text x="468" y="266" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">GO / NO-GO before it leaves the working set</text>
+  <text x="468" y="286" fill="#99F6E4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">the gate is the design choice</text>
+  <rect x="28" y="316" width="824" height="80" rx="12" fill="#111827" stroke="#334155"/>
+  <text x="48" y="348" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">QUIETER SIGNALS</text>
+  <text x="48" y="374" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Not every note is a task. Not every digest is an interrupt. Transferable habit: locks, logs, rollback mindset.</text>
+</svg>

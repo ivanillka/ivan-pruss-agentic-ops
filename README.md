@@ -1,8 +1,20 @@
+<p align="center">
+  <img src="docs/brand/logo-lockup.svg" alt="Agentic Ops — Ivan Pruss, public portfolio, EU / remote" width="640">
+</p>
+
 # Ivan Pruss - Agentic Ops
 
 **I reduce operational chaos with AI + systems.**
 
 This is the public portfolio for hiring conversations. It is a landing page plus case studies, not a product app.
+
+<p align="center">
+  <a href="#selected-work">Selected work</a> ·
+  <a href="#how-i-work">How I work</a> ·
+  <a href="docs/positioning.md">Positioning</a> ·
+  <a href="docs/visual-system.md">Visual system</a> ·
+  <a href="#contact">Contact</a>
+</p>
 
 ## About
 
@@ -10,14 +22,28 @@ This is the public portfolio for hiring conversations. It is a landing page plus
 - I design process and tooling with logs, gates, and rollback. No hope-driven ops.
 - I translate between business and technical stakeholders. Multilingual: Hebrew, Russian, English, Czech.
 
+## The loop
+
+Hiring scan: the same five moves on every case study.
+
+<p align="center">
+  <img src="docs/diagrams/agentic-ops-loop.svg" alt="Agentic Ops loop: map, automate, gate, log, rollback" width="880">
+</p>
+
+Mermaid source for the same loop lives in the [visual system](docs/visual-system.md#editable-source-mermaid).
+
 ## Selected work
 
-| Case study | Problem | Result |
-|---|---|---|
-| [Personal Ops OS](case-studies/personal-ops-os.md) | Knowledge and tasks lived in side-of-desk rituals | Repeatable knowledge-to-execution loop with gates and quieter signals |
-| [Fotium release discipline](case-studies/fotium-release-discipline.md) | Manual deploys with no audit trail | Gated deploy path: pre-flight, CI gates, smoke, GO/NO-GO, timestamped reports, one-command rollback |
-| [Fotium publish + auto-linking](case-studies/content-automation.md) | Internal linking and publish busywork were manual | Measured production run: **227** internal links generated across **10+** content items |
-| [My VPS Guard](case-studies/my-vps-guard.md) | Fragmented host visibility; IP blocks were tribal SSH | Defensive dashboard with Caddy ingest and UFW-synced Visitor blocks |
+<p align="center">
+  <img src="docs/diagrams/selected-work.svg" alt="Selected work cards: Personal Ops OS, Fotium release, Fotium publish 227 links / 10+ items, My VPS Guard defense only" width="880">
+</p>
+
+| Case study | Problem | Result | Diagram |
+|---|---|---|---|
+| [Personal Ops OS](case-studies/personal-ops-os.md) | Knowledge and tasks lived in side-of-desk rituals | Repeatable knowledge-to-execution loop with gates and quieter signals | [schematic](docs/diagrams/personal-ops-os.svg) |
+| [Fotium release discipline](case-studies/fotium-release-discipline.md) | Manual deploys with no audit trail | Gated deploy path: pre-flight, CI gates, smoke, GO/NO-GO, timestamped reports, one-command rollback | [schematic](docs/diagrams/fotium-release-discipline.svg) |
+| [Fotium publish + auto-linking](case-studies/content-automation.md) | Internal linking and publish busywork were manual | Measured production run: **227** internal links generated across **10+** content items | [schematic](docs/diagrams/fotium-publish-autolinking.svg) |
+| [My VPS Guard](case-studies/my-vps-guard.md) | Fragmented host visibility; IP blocks were tribal SSH | Defensive dashboard with Caddy ingest and UFW-synced Visitor blocks (~1 min). Attempts are logged, not auto-banned | [schematic](docs/diagrams/my-vps-guard.svg) |
 
 Related public code:
 
@@ -30,6 +56,8 @@ Sample artifacts in this repo:
 
 - [Case study index](case-studies/README.md)
 - [Positioning one-pager](docs/positioning.md)
+- [Brand kit](docs/brand/BRAND.md)
+- [Visual system](docs/visual-system.md)
 - [Deploy Assistant pattern](deploy-assistant/README.md)
 
 ## How I work

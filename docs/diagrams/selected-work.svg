@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" role="img" aria-labelledby="title desc">
+  <title id="title">Selected work</title>
+  <desc id="desc">Four hiring case studies: Personal Ops OS, Fotium release discipline, Fotium publish with 227 links across 10 or more items, and My VPS Guard defense-only path.</desc>
+  <rect width="880" height="220" rx="16" fill="#0F172A"/>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="16" y="16" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="32" y="44" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">01</text>
+    <text x="32" y="68" fill="#E2E8F0" font-size="14" font-weight="700">Personal Ops OS</text>
+    <text x="32" y="92" fill="#94A3B8" font-size="12">capture - gate</text>
+    <text x="32" y="110" fill="#94A3B8" font-size="12">- execute - log</text>
+    <text x="32" y="128" fill="#94A3B8" font-size="12">- publish path</text>
+    <rect x="32" y="152" width="88" height="28" rx="6" fill="#134E4A"/>
+    <text x="76" y="171" text-anchor="middle" fill="#5EEAD4" font-size="11" font-weight="600">daily gates</text>
+    <rect x="232" y="16" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="248" y="44" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">02</text>
+    <text x="248" y="68" fill="#E2E8F0" font-size="14" font-weight="700">Fotium release</text>
+    <text x="248" y="92" fill="#94A3B8" font-size="12">pre-flight - CI</text>
+    <text x="248" y="110" fill="#94A3B8" font-size="12">- smoke - GO</text>
+    <text x="248" y="128" fill="#94A3B8" font-size="12">- audit + rollback</text>
+    <rect x="248" y="152" width="88" height="28" rx="6" fill="#1C1917" stroke="#D97706"/>
+    <text x="292" y="171" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">~30s warm</text>
+    <rect x="448" y="16" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="464" y="44" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">03</text>
+    <text x="464" y="68" fill="#E2E8F0" font-size="14" font-weight="700">Fotium publish</text>
+    <text x="464" y="92" fill="#94A3B8" font-size="12">notes - storage</text>
+    <text x="464" y="110" fill="#94A3B8" font-size="12">- API - live</text>
+    <text x="464" y="128" fill="#94A3B8" font-size="12">rule-based linker</text>
+    <rect x="464" y="152" width="72" height="28" rx="6" fill="#F1F5F9"/>
+    <text x="500" y="171" text-anchor="middle" fill="#0F766E" font-size="11" font-weight="700">227</text>
+    <rect x="544" y="152" width="72" height="28" rx="6" fill="#F1F5F9"/>
+    <text x="580" y="171" text-anchor="middle" fill="#0F766E" font-size="11" font-weight="700">10+</text>
+    <rect x="664" y="16" width="200" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="680" y="44" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">04</text>
+    <text x="680" y="68" fill="#E2E8F0" font-size="14" font-weight="700">My VPS Guard</text>
+    <text x="680" y="92" fill="#94A3B8" font-size="12">ingest - label</text>
+    <text x="680" y="110" fill="#94A3B8" font-size="12">- Visitor block</text>
+    <text x="680" y="128" fill="#94A3B8" font-size="12">- UFW sync</text>
+    <rect x="680" y="152" width="112" height="28" rx="6" fill="#134E4A" stroke="#2DD4BF"/>
+    <text x="736" y="171" text-anchor="middle" fill="#5EEAD4" font-size="11" font-weight="600">defense only</text>
+  </g>
+</svg>

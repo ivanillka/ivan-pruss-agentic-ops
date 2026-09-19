@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 96" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic Ops wordmark</title>
+  <desc id="desc">Agentic Ops, Ivan Pruss portfolio. Deep teal accent bar under the wordmark.</desc>
+  <rect width="520" height="96" rx="12" fill="#0F172A"/>
+  <text x="28" y="46" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="1.2">Agentic Ops</text>
+  <text x="30" y="72" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="0.4">Ivan Pruss portfolio</text>
+  <rect x="28" y="82" width="72" height="3" rx="1.5" fill="#0F766E"/>
+</svg>
