@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic Ops mark</title>
+  <desc id="desc">Geometric AO monogram on a slate badge, latched by a teal gate bar.</desc>
+  <defs>
+    <linearGradient id="ao-badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#ao-badge)" stroke="#334155" stroke-width="2"/>
+  <!-- A -->
+  <path d="M28 86 L46 34 L64 86" fill="none" stroke="#E2E8F0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 68 H56" fill="none" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+  <!-- O -->
+  <circle cx="90" cy="60" r="22" fill="none" stroke="#E2E8F0" stroke-width="7"/>
+  <!-- gate latch -->
+  <rect x="30" y="96" width="68" height="10" rx="5" fill="#0F766E"/>
+  <rect x="38" y="98.5" width="52" height="5" rx="2.5" fill="#2DD4BF"/>
+</svg>

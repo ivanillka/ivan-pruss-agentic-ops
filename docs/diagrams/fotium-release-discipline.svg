@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+  <title id="title">Fotium release discipline</title>
+  <desc id="desc">Gated deploy path: pre-flight, CI gates, smoke, GO or NO-GO, post-deploy verify, timestamped audit report, one-command rollback. About 30 seconds once checks are warm.</desc>
+  <rect width="880" height="460" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CASE STUDY / FOTIUM RELEASE</text>
+  <text x="28" y="60" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Operator contract, not a remembered sequence</text>
+  <text x="852" y="40" text-anchor="end" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">~30s once gates are warm</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="88" width="132" height="80" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="94" y="118" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">PRE-FLIGHT</text>
+    <text x="94" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">tree / tools</text>
+    <text x="94" y="158" text-anchor="middle" fill="#64748B" font-size="11">secret names only</text>
+    <path d="M160 128h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="176" y="80" width="200" height="96" rx="12" fill="#1E293B" stroke="#0F766E" stroke-width="1.5"/>
+    <text x="276" y="106" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.1">CI GATES</text>
+    <text x="276" y="128" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">lint / types / tests</text>
+    <text x="276" y="146" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">Playwright / build</text>
+    <text x="276" y="164" text-anchor="middle" fill="#64748B" font-size="11">red gate = NO-GO</text>
+    <path d="M376 128h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="392" y="88" width="112" height="80" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="448" y="118" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">SMOKE</text>
+    <text x="448" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">known-good check</text>
+    <text x="448" y="158" text-anchor="middle" fill="#64748B" font-size="11">before "done"</text>
+    <path d="M504 128h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="520" y="84" width="132" height="88" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="586" y="118" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.1">GO / NO-GO</text>
+    <text x="586" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">human records it</text>
+    <text x="586" y="158" text-anchor="middle" fill="#99F6E4" font-size="11">automation recommends</text>
+    <path d="M652 128h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="668" y="88" width="184" height="80" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="760" y="118" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">VERIFY + AUDIT</text>
+    <text x="760" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">live smoke / SHA</text>
+    <text x="760" y="158" text-anchor="middle" fill="#64748B" font-size="11">timestamped report</text>
+  </g>
+  <path d="M586 172v28" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="28" y="212" width="824" height="100" rx="12" fill="#1C1917" stroke="#D97706" stroke-width="1.5"/>
+  <text x="48" y="244" fill="#FBBF24" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">ROLLBACK SITS NEXT TO THE FORWARD COMMAND</text>
+  <text x="48" y="270" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">If verify fails: stop, copy the reverse command from the report, do not reconstruct from memory.</text>
+  <text x="48" y="292" fill="#A8A29E" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">A deploy is a document: SHA, gate table, decision, rollback. Fail loud. Do not swallow a red check.</text>
+  <rect x="28" y="328" width="404" height="104" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="48" y="360" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">SAMPLE IN THIS REPO</text>
+  <text x="48" y="384" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Deploy Assistant / secret-free report contract</text>
+  <text x="48" y="406" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Missing tool = SKIP with a reason, not a pass</text>
+  <rect x="448" y="328" width="404" height="104" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="468" y="360" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">LIMITS (KEPT HONEST)</text>
+  <text x="468" y="384" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Personal / production lab / not a 50-person SRE rotation</text>
+  <text x="468" y="406" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">No hostnames, IPs, or local machine paths</text>
+</svg>

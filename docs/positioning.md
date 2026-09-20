@@ -2,6 +2,10 @@
 
 Public one-pager for hiring conversations. Contact is GitHub + EU/remote only.
 
+<p align="center">
+  <img src="brand/logo-lockup.svg" alt="Agentic Ops — Ivan Pruss, public portfolio, EU / remote" width="520">
+</p>
+
 ## One-liner
 
 I reduce operational chaos with AI + systems.
@@ -34,12 +38,13 @@ That usually means:
 
 | Artifact | What it shows |
 |---|---|
-| [Personal Ops OS](../case-studies/personal-ops-os.md) | Knowledge to execution, with daily gates |
-| [Fotium release discipline](../case-studies/fotium-release-discipline.md) | Deploy path with pre-flight, CI gates, GO/NO-GO, audit report, rollback |
-| [Fotium publish + auto-linking](../case-studies/content-automation.md) | Measured production publish: 227 internal links across 10+ items |
-| [My VPS Guard](../case-studies/my-vps-guard.md) | Defensive edge ops dashboard (defense only): Caddy ingest → label attempts → Visitor block → UFW sync |
+| [Personal Ops OS](../case-studies/personal-ops-os.md) | Knowledge to execution, with daily gates. [Diagram](diagrams/personal-ops-os.svg) |
+| [Fotium release discipline](../case-studies/fotium-release-discipline.md) | Deploy path with pre-flight, CI gates, GO/NO-GO, audit report, rollback. [Diagram](diagrams/fotium-release-discipline.svg) |
+| [Fotium publish + auto-linking](../case-studies/content-automation.md) | Measured production publish: 227 internal links across 10+ items. [Diagram](diagrams/fotium-publish-autolinking.svg) |
+| [My VPS Guard](../case-studies/my-vps-guard.md) | Defensive edge ops dashboard (defense only): Caddy ingest → label attempts → Visitor block → UFW sync. [Diagram](diagrams/my-vps-guard.svg) |
 | [Deploy Assistant sample](../deploy-assistant/README.md) | Safe, secret-free demo of the deploy report pattern |
 | [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md) | Engineering health digest plus follow-up actions |
+| [Visual system](visual-system.md) | How slate / teal / amber diagrams are used on this site |
 
 Public product/code I can point to without a private vault:
 

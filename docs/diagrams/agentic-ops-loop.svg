@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 268" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic Ops loop</title>
+  <desc id="desc">Closed operating loop: map, automate, gate, log, rollback. The gate is the human decision.</desc>
+  <rect width="880" height="268" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">AGENTIC OPS LOOP</text>
+  <text x="28" y="58" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Map - automate - gate - log - rollback</text>
+  <text x="852" y="40" text-anchor="end" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">closed loop / human latch</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <path d="M176 128h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+  <path d="M336 128h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+  <path d="M496 128h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+  <path d="M656 128h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+  <path d="M754 156v28c0 14-12 26-26 26H152c-14 0-26-12-26-26v-28" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="440" y="222" text-anchor="middle" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">return to map after rollback or a clean log</text>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="92" width="148" height="72" rx="12" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+    <text x="102" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">01  MAP</text>
+    <text x="102" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">real workflow</text>
+    <rect x="204" y="92" width="132" height="72" rx="12" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+    <text x="270" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">02  AUTOMATE</text>
+    <text x="270" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">bounded scripts</text>
+    <rect x="364" y="88" width="132" height="80" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="430" y="122" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.2">03  GATE</text>
+    <text x="430" y="146" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">GO / NO-GO</text>
+    <rect x="524" y="92" width="132" height="72" rx="12" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+    <text x="590" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">04  LOG</text>
+    <text x="590" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">timestamp + SHA</text>
+    <rect x="684" y="92" width="168" height="72" rx="12" fill="#1C1917" stroke="#D97706" stroke-width="1.5"/>
+    <text x="768" y="122" text-anchor="middle" fill="#FBBF24" font-size="10" font-weight="700" letter-spacing="1.2">05  ROLLBACK</text>
+    <text x="768" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">written reverse</text>
+  </g>
+</svg>

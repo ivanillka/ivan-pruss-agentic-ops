@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" role="img" aria-labelledby="title desc">
+  <title id="title">Fotium publish and auto-linking</title>
+  <desc id="desc">Measured production publish: notes to object storage to admin API to live, with rule-based internal linking. 227 links generated across 10 or more content items.</desc>
+  <rect width="880" height="440" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CASE STUDY / FOTIUM PUBLISH</text>
+  <text x="28" y="60" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Notes to live pages, with rule-based links</text>
+  <rect x="620" y="24" width="112" height="44" rx="8" fill="#F1F5F9"/>
+  <text x="676" y="42" text-anchor="middle" fill="#0F766E" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">227</text>
+  <text x="676" y="58" text-anchor="middle" fill="#334155" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600">internal links</text>
+  <rect x="740" y="24" width="112" height="44" rx="8" fill="#F1F5F9"/>
+  <text x="796" y="42" text-anchor="middle" fill="#0F766E" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">10+</text>
+  <text x="796" y="58" text-anchor="middle" fill="#334155" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600">content items</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <text x="28" y="96" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">LAYER 1 / PUBLISH PIPELINE</text>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="108" width="168" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="112" y="138" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">NOTES</text>
+    <text x="112" y="160" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">working set</text>
+    <path d="M196 144h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="224" y="108" width="168" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="308" y="138" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">OBJECT STORAGE</text>
+    <text x="308" y="160" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">placed object</text>
+    <path d="M392 144h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="420" y="108" width="168" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="504" y="138" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">ADMIN API</text>
+    <text x="504" y="160" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">checkable hop</text>
+    <path d="M588 144h28" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="616" y="104" width="236" height="80" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="734" y="134" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.1">LIVE / CI GATE IN FRONT</text>
+    <text x="734" y="156" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">lint / types / tests</text>
+    <text x="734" y="174" text-anchor="middle" fill="#99F6E4" font-size="11">Playwright / build / red = stop</text>
+  </g>
+  <text x="28" y="220" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">LAYER 2 / RULE-BASED AUTO-LINKING</text>
+  <rect x="28" y="232" width="824" height="100" rx="12" fill="#1E293B" stroke="#334155"/>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="48" y="252" width="140" height="60" rx="8" fill="#0F172A" stroke="#475569"/>
+    <text x="118" y="276" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700">TITLE</text>
+    <text x="118" y="296" text-anchor="middle" fill="#E2E8F0" font-size="12">rule input</text>
+    <rect x="200" y="252" width="140" height="60" rx="8" fill="#0F172A" stroke="#475569"/>
+    <text x="270" y="276" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700">SLUG</text>
+    <text x="270" y="296" text-anchor="middle" fill="#E2E8F0" font-size="12">rule input</text>
+    <rect x="352" y="252" width="160" height="60" rx="8" fill="#0F172A" stroke="#475569"/>
+    <text x="432" y="276" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700">KNOWN ENTITIES</text>
+    <text x="432" y="296" text-anchor="middle" fill="#E2E8F0" font-size="12">rule input</text>
+    <path d="M512 282h24" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="536" y="252" width="296" height="60" rx="8" fill="#134E4A" stroke="#2DD4BF"/>
+    <text x="684" y="276" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700">LINKER WRITES EDGES</text>
+    <text x="684" y="296" text-anchor="middle" fill="#E2E8F0" font-size="12">227 links / then human review</text>
+  </g>
+  <rect x="28" y="348" width="404" height="68" rx="12" fill="#111827" stroke="#334155"/>
+  <text x="48" y="376" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">OS decides whether it ships. Pipeline decides how.</text>
+  <text x="48" y="396" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Failed hop = failed publish, not a silent partial.</text>
+  <rect x="448" y="348" width="404" height="68" rx="12" fill="#1C1917" stroke="#D97706" stroke-width="1.25"/>
+  <text x="468" y="376" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Rule-based linker - not a trained ranker.</text>
+  <text x="468" y="396" fill="#A8A29E" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Bad publish is reversed from the report.</text>
+</svg>

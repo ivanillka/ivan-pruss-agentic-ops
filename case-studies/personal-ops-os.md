@@ -2,6 +2,10 @@
 
 Knowledge to execution, without the side-of-desk ritual.
 
+<p align="center">
+  <img src="../docs/diagrams/personal-ops-os.svg" alt="Personal Ops OS: capture, theme gate, execute, log, publish path. AI may draft; a human still decides GO or NO-GO." width="880">
+</p>
+
 ## Problem
 
 Knowledge and tasks lived in messy daily habits. Notes, inbox, and "I will remember this" sat next to each other with no gate between capture and action.
@@ -50,3 +54,5 @@ Related public pages:
 - [Fotium production publish](content-automation.md)
 - [My VPS Guard](my-vps-guard.md)
 - [How I work](../README.md#how-i-work)
+- [Diagram](../docs/diagrams/personal-ops-os.svg)
+- [Visual system](../docs/visual-system.md)
