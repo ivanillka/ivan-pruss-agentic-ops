@@ -1,6 +1,6 @@
 # Deploy Assistant (sample)
 
-Safe, secret-free demo of the gated deploy path described in [Fotium release discipline](../case-studies/fotium-release-discipline.md).
+Safe, secret-free demo of the gated deploy path described in the [Deploy Assistant](../case-studies/deploy-assistant.md) case study (production-lab sibling: [Fotium release discipline](../case-studies/fotium-release-discipline.md)).
 
 This is not a production deployer. It does not talk to a VPS, cloud account, or CI secret store. It shows the operator contract:
 

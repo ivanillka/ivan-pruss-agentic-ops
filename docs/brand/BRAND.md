@@ -50,7 +50,7 @@ On GitHub light *and* dark themes, diagrams carry their own `ao-bg` canvas so co
 
 1. **One accent.** Teal means a gate or an explicit decision. Everything else stays slate.
 2. **Rollback is amber outline, never red explosion.** Calm, reversible, written next to the forward path.
-3. **Metrics must already exist in the repo.** Today that is **227** internal links across **10+** items, plus operator-path timings already written in the case studies (~30s gated deploy once warm; ~1 min VPS Guard sync loop).
+3. **Metrics must already exist in the repo.** Today that is **227** internal links across **10+** items, plus operator-path timings already written in the case studies (~30s gated deploy once warm; ~1 min VPS Guard sync loop). Qualitative chips (live alpha, host boundary, sample / secret-free, human gate) are labels, not KPIs. Do not invent revenue, traffic, waitlists, SLAs, or partner-ops volumes.
 4. **No screenshots of real hosts.** If a dashboard is needed, use a diagrammatic panel with placeholder rows (`visitor-01`, `attempt`).
 5. **Markdown first.** Prefer committed SVG over PNG. Keep relative links from README and case studies stable.
 6. **Do not put PII in SVG `<text>` or `<title>`.** No emails, phone numbers, LinkedIn, hostnames, or private IPs.

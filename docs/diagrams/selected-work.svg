@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
   <title id="title">Selected work</title>
-  <desc id="desc">Four hiring case studies: Personal Ops OS, Fotium release discipline, Fotium publish with 227 links across 10 or more items, and My VPS Guard defense-only path.</desc>
-  <rect width="880" height="220" rx="16" fill="#0F172A"/>
+  <desc id="desc">Eight hiring case studies: Personal Ops OS, Fotium release discipline, Fotium publish with 227 links across 10 or more items, My VPS Guard defense-only path, F-Motion live alpha, F-Engine host boundary, Deploy Assistant secret-free sample, and Lodging Partner Ops human-gate employment path.</desc>
+  <rect width="880" height="420" rx="16" fill="#0F172A"/>
   <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
     <rect x="16" y="16" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
     <text x="32" y="44" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">01</text>
@@ -38,5 +38,37 @@
     <text x="680" y="128" fill="#94A3B8" font-size="12">- UFW sync</text>
     <rect x="680" y="152" width="112" height="28" rx="6" fill="#134E4A" stroke="#2DD4BF"/>
     <text x="736" y="171" text-anchor="middle" fill="#5EEAD4" font-size="11" font-weight="600">defense only</text>
+    <rect x="16" y="216" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="32" y="244" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">05</text>
+    <text x="32" y="268" fill="#E2E8F0" font-size="14" font-weight="700">F-Motion</text>
+    <text x="32" y="292" fill="#94A3B8" font-size="12">brief - media</text>
+    <text x="32" y="310" fill="#94A3B8" font-size="12">- timeline - render</text>
+    <text x="32" y="328" fill="#94A3B8" font-size="12">- draft URL</text>
+    <rect x="32" y="352" width="96" height="28" rx="6" fill="#134E4A" stroke="#2DD4BF"/>
+    <text x="80" y="371" text-anchor="middle" fill="#5EEAD4" font-size="11" font-weight="600">live alpha</text>
+    <rect x="232" y="216" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="248" y="244" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">06</text>
+    <text x="248" y="268" fill="#E2E8F0" font-size="14" font-weight="700">F-Engine</text>
+    <text x="248" y="292" fill="#94A3B8" font-size="12">contracts + engine</text>
+    <text x="248" y="310" fill="#94A3B8" font-size="12">host owns auth</text>
+    <text x="248" y="328" fill="#94A3B8" font-size="12">demo, no accounts</text>
+    <rect x="248" y="352" width="120" height="28" rx="6" fill="#134E4A"/>
+    <text x="308" y="371" text-anchor="middle" fill="#5EEAD4" font-size="11" font-weight="600">host boundary</text>
+    <rect x="448" y="216" width="204" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="464" y="244" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">07</text>
+    <text x="464" y="268" fill="#E2E8F0" font-size="14" font-weight="700">Deploy Assistant</text>
+    <text x="464" y="292" fill="#94A3B8" font-size="12">pre-flight - gates</text>
+    <text x="464" y="310" fill="#94A3B8" font-size="12">- smoke - GO</text>
+    <text x="464" y="328" fill="#94A3B8" font-size="12">audit + rollback</text>
+    <rect x="464" y="352" width="148" height="28" rx="6" fill="#1C1917" stroke="#D97706"/>
+    <text x="538" y="371" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600">sample / secret-free</text>
+    <rect x="664" y="216" width="200" height="188" rx="12" fill="#1E293B" stroke="#334155"/>
+    <text x="680" y="244" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">08</text>
+    <text x="680" y="268" fill="#E2E8F0" font-size="14" font-weight="700">Lodging Partner Ops</text>
+    <text x="680" y="292" fill="#94A3B8" font-size="12">intake - triage</text>
+    <text x="680" y="310" fill="#94A3B8" font-size="12">- AI draft - gate</text>
+    <text x="680" y="328" fill="#94A3B8" font-size="12">- escalate - note</text>
+    <rect x="680" y="352" width="112" height="28" rx="6" fill="#134E4A" stroke="#2DD4BF"/>
+    <text x="736" y="371" text-anchor="middle" fill="#5EEAD4" font-size="11" font-weight="600">human gate</text>
   </g>
 </svg>
