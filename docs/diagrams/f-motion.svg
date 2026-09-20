@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+  <title id="title">F-Motion</title>
+  <desc id="desc">AI-assisted vertical video: chat brief, media attach or BYOK stock, storyboard timeline, preview render, agent returns a draft URL. Owner-scoped credentials. Live alpha, not a commercial launch.</desc>
+  <rect width="880" height="460" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CASE STUDY / F-MOTION</text>
+  <text x="28" y="60" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Brief - media - timeline - render - draft URL</text>
+  <rect x="708" y="24" width="144" height="44" rx="8" fill="#134E4A" stroke="#2DD4BF"/>
+  <text x="780" y="42" text-anchor="middle" fill="#5EEAD4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.1">LIVE ALPHA</text>
+  <text x="780" y="58" text-anchor="middle" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">personal product</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="92" width="148" height="88" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="102" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">01  BRIEF</text>
+    <text x="102" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">chat, d4 questions</text>
+    <text x="102" y="164" text-anchor="middle" fill="#64748B" font-size="11">media-first or chat-only</text>
+    <path d="M176 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="196" y="92" width="148" height="88" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="270" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">02  MEDIA</text>
+    <text x="270" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">drop or BYOK stock</text>
+    <text x="270" y="164" text-anchor="middle" fill="#64748B" font-size="11">no invented pixels</text>
+    <path d="M344 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="364" y="92" width="148" height="88" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="438" y="122" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.2">03  TIMELINE</text>
+    <text x="438" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">storyboard draft</text>
+    <text x="438" y="164" text-anchor="middle" fill="#64748B" font-size="11">named scenes</text>
+    <path d="M512 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="532" y="92" width="140" height="88" rx="12" fill="#1E293B" stroke="#0F766E" stroke-width="1.5"/>
+    <text x="602" y="122" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.2">04  RENDER</text>
+    <text x="602" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">preview first</text>
+    <text x="602" y="164" text-anchor="middle" fill="#64748B" font-size="11">not auto-publish</text>
+    <path d="M672 136h20" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="692" y="88" width="160" height="96" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="772" y="122" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.2">05  DRAFT URL</text>
+    <text x="772" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600">same project</text>
+    <text x="772" y="164" text-anchor="middle" fill="#99F6E4" font-size="11">agent definition of done</text>
+  </g>
+  <rect x="28" y="212" width="404" height="100" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="1.5"/>
+  <text x="48" y="244" fill="#5EEAD4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">BYOK CREDENTIAL BOUNDARY</text>
+  <text x="48" y="268" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Owner keys, encrypted, never returned.</text>
+  <text x="48" y="290" fill="#99F6E4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">No shared platform key. FAL is quote then confirm.</text>
+  <rect x="448" y="212" width="404" height="100" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="468" y="244" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">GATES / CI / RUNBOOKS</text>
+  <text x="468" y="268" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">lint / tests / build / Playwright / smoke</text>
+  <text x="468" y="290" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Rollback: promote last known-good deploy.</text>
+  <rect x="28" y="328" width="824" height="108" rx="12" fill="#1C1917" stroke="#D97706" stroke-width="1.5"/>
+  <text x="48" y="360" fill="#FBBF24" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">LIMITS (KEPT HONEST)</text>
+  <text x="48" y="386" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Live alpha, not a commercial launch. No invented revenue, traffic, or waitlists.</text>
+  <text x="48" y="410" fill="#A8A29E" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Fotium stays a private content brand. No emails, phones, host secrets, or vault paths.</text>
+</svg>

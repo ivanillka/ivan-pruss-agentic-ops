@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+  <title id="title">F-Engine</title>
+  <desc id="desc">Host boundary: F-Engine owns versioned contracts and deterministic reel-engine behavior. The host owns auth, persistence, providers, UI, branding, and ops. Demo path needs no accounts. Verify with lint, test, build, package-consumer, and Playwright.</desc>
+  <rect width="880" height="460" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CASE STUDY / F-ENGINE</text>
+  <text x="28" y="60" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Engine packages vs host concerns</text>
+  <text x="852" y="40" text-anchor="end" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">pin a release / do not vendor a fork</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <rect x="28" y="84" width="396" height="196" rx="12" fill="#1E293B" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="48" y="112" fill="#5EEAD4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">ENGINE OWNS</text>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="48" y="128" width="356" height="56" rx="8" fill="#0F172A" stroke="#475569"/>
+    <text x="64" y="152" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">CONTRACTS</text>
+    <text x="64" y="172" fill="#E2E8F0" font-size="13" font-weight="600">JSON / OpenAPI / wire schema v1</text>
+    <rect x="48" y="196" width="356" height="64" rx="8" fill="#0F172A" stroke="#475569"/>
+    <text x="64" y="220" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">REEL-ENGINE</text>
+    <text x="64" y="240" fill="#E2E8F0" font-size="13" font-weight="600">commands, cues, crop, render plan</text>
+  </g>
+  <path d="M424 182h32" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+  <rect x="456" y="84" width="396" height="196" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="476" y="112" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">HOST OWNS</text>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+    <text x="476" y="148" fill="#E2E8F0">auth / accounts / invite policy</text>
+    <text x="476" y="172" fill="#E2E8F0">databases / object storage</text>
+    <text x="476" y="196" fill="#E2E8F0">provider adapters / credentials</text>
+    <text x="476" y="220" fill="#E2E8F0">UI, branding, operational policy</text>
+    <text x="476" y="248" fill="#64748B" font-size="12">validated RenderProfile (size, watermark)</text>
+  </g>
+  <rect x="28" y="296" width="404" height="68" rx="12" fill="#134E4A" stroke="#2DD4BF"/>
+  <text x="48" y="324" fill="#5EEAD4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">DEMO PATH</text>
+  <text x="48" y="346" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">npm ci &amp;&amp; npm run demo - no accounts, local FFmpeg</text>
+  <rect x="448" y="296" width="404" height="68" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="468" y="324" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">VERIFY</text>
+  <text x="468" y="346" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">lint / test / build / package-consumer / e2e:web</text>
+  <rect x="28" y="380" width="824" height="56" rx="12" fill="#1C1917" stroke="#D97706" stroke-width="1.5"/>
+  <text x="48" y="414" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Engine does not read env, call provider SDKs, persist data, or choose identity.</text>
+</svg>

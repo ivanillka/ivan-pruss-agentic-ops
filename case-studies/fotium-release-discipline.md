@@ -36,7 +36,8 @@ I specified a Deploy Assistant style flow. The operator does not "just ship." Th
 
 The public, secret-free sample of that artifact lives in this repo:
 
-- [Deploy Assistant](../deploy-assistant/README.md)
+- [Deploy Assistant case study](deploy-assistant.md)
+- [Sample runner](../deploy-assistant/README.md)
 - [Report template](../deploy-assistant/report-template.md)
 - [Example report](../deploy-assistant/example-report.md)
 
@@ -44,8 +45,8 @@ The sample runner records SKIP with a reason when this portfolio repo has no app
 
 Public adjacent evidence, not a substitute for the private Fotium repo:
 
-- f-motion CI `verify` runs lint, tests, build, Pages artifact checks, and Playwright web E2E before merge
-- f-motion hosted deploy runbooks require smoke after deploy and describe rollback by promoting the last known-good deployment
+- [F-Motion](f-motion.md) CI `verify` runs lint, tests, build, Pages artifact checks, and Playwright web E2E before merge
+- F-Motion hosted deploy runbooks require smoke after deploy and describe rollback by promoting the last known-good deployment
 - this repo's [weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md) treats a red default-branch deploy as a P0, not as background noise
 
 ## Result
@@ -63,8 +64,8 @@ What changed in practice:
 ## Limits (kept honest)
 
 - This is release discipline for a personal/production lab, not a 50-person engineering organization with a dedicated SRE rotation.
-- The in-repo Deploy Assistant is a **sample contract**. It does not SSH, read `.env` files, or talk to a private host.
-- Adjacent f-motion CI is public evidence of the same habit (fail closed, leave a trail). It is not the Fotium application repo.
+- The in-repo [Deploy Assistant](deploy-assistant.md) is a **sample contract**. It does not SSH, read `.env` files, or talk to a private host.
+- Adjacent [F-Motion](f-motion.md) CI is public evidence of the same habit (fail closed, leave a trail). It is not the Fotium application repo.
 
 ## Why this matters for hiring
 
@@ -72,7 +73,9 @@ Release discipline is Product Ops with production consequences. I care about the
 
 Related public pages:
 
-- [Deploy Assistant sample](../deploy-assistant/README.md)
+- [Deploy Assistant](deploy-assistant.md)
+- [F-Motion](f-motion.md)
+- [F-Engine](f-engine.md)
 - [Fotium production publish](content-automation.md)
 - [My VPS Guard](my-vps-guard.md)
 - [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md)
