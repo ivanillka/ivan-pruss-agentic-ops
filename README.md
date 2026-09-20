@@ -35,7 +35,7 @@ Mermaid source for the same loop lives in the [visual system](docs/visual-system
 ## Selected work
 
 <p align="center">
-  <img src="docs/diagrams/selected-work.svg" alt="Selected work cards: Personal Ops OS, Fotium release, Fotium publish 227 links / 10+ items, My VPS Guard defense only, F-Motion live alpha, F-Engine host boundary, Deploy Assistant sample" width="880">
+  <img src="docs/diagrams/selected-work.svg" alt="Selected work cards: Personal Ops OS, Fotium release, Fotium publish 227 links / 10+ items, My VPS Guard defense only, F-Motion live alpha, F-Engine host boundary, Deploy Assistant sample, Lodging Partner Ops human gate" width="880">
 </p>
 
 | Case study | Problem | Result | Diagram |
@@ -47,6 +47,7 @@ Mermaid source for the same loop lives in the [visual system](docs/visual-system
 | [F-Motion](case-studies/f-motion.md) | Vertical video was a tool pile: no credential boundary, no draft URL as done | Live-alpha studio: brief → media → timeline → preview → draft URL; BYOK Pexels/FAL; CI and deploy runbooks | [schematic](docs/diagrams/f-motion.svg) |
 | [F-Engine](case-studies/f-engine.md) | Renderer-as-product leaks secrets and branding into crop math | Host-neutral contracts + reel-engine; demo with no accounts; host owns auth, storage, providers | [schematic](docs/diagrams/f-engine.svg) |
 | [Deploy Assistant](case-studies/deploy-assistant.md) | Deploy knowledge lived in chat; hiring readers cannot inspect a private host | Secret-free sample: pre-flight, gates, smoke, GO/NO-GO, timestamped report, rollback text | [schematic](docs/diagrams/deploy-assistant.svg) |
+| [Lodging Partner Ops](case-studies/lodging-partner-ops.md) | Partner-support quality depended on who was on the queue | Structured path: intake, triage, checklist, AI draft assist, human send gate, escalate, knowledge note | [schematic](docs/diagrams/lodging-partner-ops.svg) |
 
 Related public code:
 

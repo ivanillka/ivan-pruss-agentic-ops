@@ -45,6 +45,7 @@ That usually means:
 | [F-Motion](../case-studies/f-motion.md) | Live-alpha vertical video: brief → media → timeline → preview → draft URL; BYOK credential boundary. [Diagram](diagrams/f-motion.svg) |
 | [F-Engine](../case-studies/f-engine.md) | Host-neutral reel contracts + engine; demo with no accounts; host owns auth, storage, providers. [Diagram](diagrams/f-engine.svg) |
 | [Deploy Assistant](../case-studies/deploy-assistant.md) | Secret-free gated deploy contract (runnable sample in this repo). [Diagram](diagrams/deploy-assistant.svg) |
+| [Lodging Partner Ops](../case-studies/lodging-partner-ops.md) | Employment case study (Expedia Group): AI draft assist behind a human send gate. Qualitative adoption only. [Diagram](diagrams/lodging-partner-ops.svg) |
 | [Weekly pulse](../ops/digests/2026-09-09-weekly-pulse.md) | Engineering health digest plus follow-up actions |
 | [Visual system](visual-system.md) | How slate / teal / amber diagrams are used on this site |
 

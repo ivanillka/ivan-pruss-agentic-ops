@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" role="img" aria-labelledby="title desc">
+  <title id="title">Lodging Partner Ops</title>
+  <desc id="desc">Public-safe partner ops loop: intake, triage, checklist, AI draft assist, human send gate, resolve or escalate, knowledge note. No partner names, ticket IDs, or internal tool screenshots.</desc>
+  <rect width="880" height="280" rx="16" fill="#0F172A"/>
+  <text x="28" y="36" fill="#94A3B8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CASE STUDY / LODGING PARTNER OPS</text>
+  <text x="28" y="60" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="650">Map - assist - gate - escalate - leave a note</text>
+  <text x="852" y="40" text-anchor="end" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">public CV detail only</text>
+  <defs>
+    <marker id="ao-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="88" width="100" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="78" y="116" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">INTAKE</text>
+    <text x="78" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">ask + language</text>
+    <path d="M128 124h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="144" y="88" width="100" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="194" y="116" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">TRIAGE</text>
+    <text x="194" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">now / later / up</text>
+    <path d="M244 124h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="260" y="88" width="108" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="314" y="116" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">CHECKLIST</text>
+    <text x="314" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">case-type questions</text>
+    <path d="M368 124h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="384" y="88" width="120" height="72" rx="12" fill="#1E293B" stroke="#0F766E" stroke-width="1.5"/>
+    <text x="444" y="116" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.1">AI DRAFT</text>
+    <text x="444" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">suggest / translate</text>
+    <path d="M504 124h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="520" y="84" width="116" height="80" rx="12" fill="#134E4A" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="578" y="116" text-anchor="middle" fill="#5EEAD4" font-size="10" font-weight="700" letter-spacing="1.1">HUMAN GATE</text>
+    <text x="578" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">review then send</text>
+    <path d="M636 124h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="652" y="84" width="100" height="80" rx="12" fill="#1C1917" stroke="#D97706" stroke-width="1.5"/>
+    <text x="702" y="112" text-anchor="middle" fill="#FBBF24" font-size="10" font-weight="700" letter-spacing="1.1">RESOLVE /</text>
+    <text x="702" y="128" text-anchor="middle" fill="#FBBF24" font-size="10" font-weight="700" letter-spacing="1.1">ESCALATE</text>
+    <text x="702" y="148" text-anchor="middle" fill="#E2E8F0" font-size="11">leave front line</text>
+    <path d="M752 124h16" stroke="#64748B" stroke-width="2" marker-end="url(#ao-arrow)"/>
+    <rect x="768" y="88" width="84" height="72" rx="12" fill="#1E293B" stroke="#475569"/>
+    <text x="810" y="116" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="700" letter-spacing="1.1">NOTE</text>
+    <text x="810" y="140" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600">root cause</text>
+  </g>
+  <rect x="28" y="188" width="824" height="68" rx="12" fill="#111827" stroke="#334155"/>
+  <text x="48" y="216" fill="#E2E8F0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">AI drafts. A human still sends. Enablement is on case types, not customer records.</text>
+  <text x="48" y="238" fill="#64748B" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Public-safe schematic. No partner names, ticket IDs, or internal tool screenshots.</text>
+</svg>

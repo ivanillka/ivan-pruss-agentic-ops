@@ -51,6 +51,7 @@ This is Product Ops in miniature. The artifact is not "I use Obsidian." The arti
 Related public pages:
 
 - [Positioning](../docs/positioning.md)
+- [Lodging Partner Ops](lodging-partner-ops.md)
 - [Fotium production publish](content-automation.md)
 - [My VPS Guard](my-vps-guard.md)
 - [How I work](../README.md#how-i-work)
